@@ -23,7 +23,7 @@ def judge_bmi(bmi):
 
 # アプリのタイトル
 st.title("BMI計算アプリ")
-
+st.write("身長と体重からBMIを計算します。")
 
 # 身長と体重を入力
 height = st.number_input("身長（cm）", value=170.0)
